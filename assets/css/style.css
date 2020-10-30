@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-pink{
+    background-color: #E83E8C;
+}
+.navbar-brand img{
+    width: 132px;
+    height: 53px;
+}
+.text-h1{
+    color: #707070;
+    font-size: 3.75rem;
+}
+h5{
+    font-size: 17px;
+}
+main .card ul li,
+main .card a
+{
+    font-size: 11px;
+}
+.icons-section i{
+    font-size: 80px;
+}
+.bg-info h2{
+    font-size: 2.5rem;
+}
+.img-size{
+    width: 53px;
+    height: auto;
+}
+
+@media (max-width: 575px){
+    .bg-info{
+        display: none;
+    }
+    nav div.container{
+        justify-content: space-around !important;
+    }
+    .text-h1{
+        font-size: 35px;
+    }
+}
